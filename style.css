@@ -1,12 +1,12 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Bodoni;
   background: #f9f9f9;
   margin: 20px;
 }
 
 h1 {
   text-align: center;
-  color: #004488;
+  color: #FFC0CB;
 }
 
 .semestre {
@@ -27,6 +27,6 @@ h1 {
 .info {
   display: none;
   font-size: 0.9em;
-  color: #FFD700;
+  color: #0000FF;
   margin-top: 5px;
 }
