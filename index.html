@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Curricular Interactiva</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Malla Curricular - Lic. en Odontología</h1>
+  <div class="semestre">
+    <h2>1er Semestre</h2>
+    <div class="materia" onclick="mostrarInfo(this)">
+      Anatomía I
+      <div class="info">Créditos: 4 | Requiere: Ninguno</div>
+    </div>
+    <div class="materia" onclick="mostrarInfo(this)">
+      Biología
+      <div class="info">Créditos: 3 | Requiere: Ninguno</div>
+    </div>
+  </div>
+  <div class="semestre">
+    <h2>2do Semestre</h2>
+    <div class="materia" onclick="mostrarInfo(this)">
+      Histología
+      <div class="info">Créditos: 4 | Requiere: Anatomía I</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
